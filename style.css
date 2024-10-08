@@ -1,0 +1,149 @@
+body {
+    background-color: #618CBD;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.logo {
+height: 13em; 
+width: 14em;
+border: solid black;   
+background-color: white;
+margin: 2em 6em 0em 2em;
+}
+
+
+header {
+display: flex;
+flex-direction: row;
+}
+
+header img {
+    height: 5em;
+    margin: 7.4em 3.4em -1em 4em;
+}
+
+header ul li {
+    font-size: 20pt;
+    padding: 10px 20px 10px 20px;
+    border: solid black;
+    background-color: white;
+    display: inline;
+    margin-right: 3em;
+}
+ul li :hover {
+    background-color:  #7EBBF9;
+
+}
+main {
+background-color: #7EBBF9;
+}
+main h1 {
+    margin-left: 1em;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+main div h1 {
+    background-color: #7EBBF9;
+    max-width: 9em;
+    padding: 1em 1em 1em 1em;
+    color: white;
+    margin: 1em 1em 0em 2em;
+    font-size: 25pt;
+}
+main div:first-of-type {
+    margin: 1em 1em 1em 1em;
+    background-color: white;
+    width: 30%;
+}
+
+main div:first-of-type img {
+    height: 20em;
+    margin: 1em 3em 1em 3em ;
+}
+
+main div:last-of-type{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 70%;
+align-items: center;
+margin: 1em 1em 1em 1em;
+}
+
+main section {
+    display: flex;
+}
+
+p {
+    font-size: 15pt;
+    margin: 2em;
+}
+
+ol {
+    font-size: 15pt;
+    list-style-image: url("media/Screenshot\ 2024-10-08\ at\ 13.20.14.png");
+}
+h2 {
+    margin: 1em 0em 0em 2em;
+}
+
+main div:last-child {
+    width: 97.6%;
+    margin: 1em 2em 1em 1em;
+    background-color: white;
+}
+
+  section>img {
+    border: solid black;
+
+  }
+
+.ad {
+    margin: 1em 1em 1em 1em;
+    background-color: #1DB954;
+    border: solid black;
+    border-radius: 2em;
+    width: 20em;
+    padding: 1em;
+}
+
+footer {
+    height: 15em;
+}
+.spotify {
+    height: 6em;
+    border-style: none;
+}
+
+footer h1 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer img {
+height: 10em;
+}
+
+footer div {
+    display: flex;
+}
+
+footer section {
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+footer p {
+    font-style: italic;
+    font-size: 15pt;
+}
+
+.hond {
+    height: 30em;
+}
+
+div:first-of-type .intro {
+    height: 15em;
+}
